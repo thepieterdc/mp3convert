@@ -11,7 +11,7 @@
 #else
 #define DS '/'
 #define FFMPEG_COMMAND "ffmpeg"
-#deine PAUSE_CALL "read"
+#define PAUSE_CALL "read"
 #endif
 
 std::string basename(const std::string &file);
@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << "------------------------------------------------------------" << std::endl;
 
-    std::cout << "| mp3convert 1.0.1 |" << std::setw(39 - static_cast<uint8_t>(floor(log((argc - 1))) + 1))
+    std::cout << "| mp3convert 1.0.2 |" << std::setw(39 - static_cast<uint8_t>(floor(log((argc - 1))) + 1))
               << "| Amount: "
               << (argc - 1) << "|" << std::endl;
 
